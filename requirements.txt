@@ -1,0 +1,3 @@
+vl_convert_python
+altair
+term_image
