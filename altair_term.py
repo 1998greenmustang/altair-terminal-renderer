@@ -35,9 +35,8 @@ def terminal_display(spec, **kwargs):
     img = KittyImage(Image.open(BytesIO(png)),
                      width=Size.ORIGINAL, )
     img.set_render_method('WHOLE')
-    print(img.height, img.width)
     img.draw(h_align='left', v_align='bottom', pad_height=0)
-    return {}
+    return
 
 
 # show() isn't useful if i have this

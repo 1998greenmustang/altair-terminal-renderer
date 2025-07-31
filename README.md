@@ -1,6 +1,6 @@
 # altair-terminal-renderer
 
-`altair_term.py` adds a new render to your Altair instance (and automatically selects it)
+`altair_term.py` adds a new renderer to your Altair instance (and automatically selects it)
 
 This allows you to display `alt.chart`s in the Python REPL or IPython or PTPython or whatever.
 
